@@ -13,21 +13,31 @@ nav {
   width: 200px;
 }
 nav ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  nav li {
-    padding: 10px 0;
-  }
-  
-  nav a {
-    color: #333;
-    text-decoration: none;
-  }
-  
-  nav a:hover {
-    color: white;
-    background: #555
-  }
-  
+  list-style: none;
+  padding: 0;
+
+  margin-right: 25px;
+}
+
+nav li {
+  margin: 10px 5px;
+  padding: 10px 0;
+
+  text-align: center;
+
+  border: #333 2px solid;
+  border-radius: 3px;
+}
+
+nav a {
+  color: #333;
+  text-decoration: none;
+}
+
+nav li:hover {
+  background: #555;
+}
+
+nav li:hover a {
+  color: white;
+}
