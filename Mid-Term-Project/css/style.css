@@ -58,6 +58,16 @@ nav li:hover a {
   color: white;
 }
 
+nav .github-address {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+nav .github-address a {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+
 main {
     padding: 20px;
     padding-left: 220px;
