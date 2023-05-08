@@ -72,7 +72,7 @@ main {
     padding: 20px;
     padding-left: 220px;
 }
-main h2.title {
+.title {
     width: 200px;
     font-size: 1.5em;
     margin: 10px 0;
@@ -91,4 +91,16 @@ main .type {
     width: 150px;
     margin: 10px 0;
 
+}
+.github-address.title {
+  background-color: burlywood;
+  opacity: .7;
+}
+.github-address.title:hover {
+  background-color: coral;
+  transition: 1.1s;
+}
+.home-page.title {
+  border-radius: 15px;
+  background-color: #9fad7f;
 }
